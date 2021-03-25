@@ -5,7 +5,10 @@ const FULL_HEART = '♥'
 // Your JavaScript code goes here!
 
 
-
+document.addEventListener('DOMContentLoaded', () => {
+  const divModal = document.getElementById('modal-message')
+  divModal.classList.add("hidden")
+})
 
 //------------------------------------------------------------------------------
 // Don't change the code below: this function mocks the server response
